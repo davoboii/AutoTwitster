@@ -1,0 +1,867 @@
+#Source Code
+import time
+import random
+import winsound
+users = eval(input("How Many Users? "))
+begin = input("Press 'ENTER' To Begin")
+
+if users == 1:
+    for i in range(10000):
+        time.sleep(5)
+        number = random.randint(1, 16)
+        if number == 1:
+            winsound.PlaySound("Right Hand Green", winsound.SND_ASYNC)
+            print("")
+            print("RIGHT HAND ON GREEN")
+            print("")
+        elif number == 2:
+            winsound.PlaySound("Right Hand Yellow", winsound.SND_ASYNC)
+            print("")
+            print("RIGHT HAND ON YELLOW")
+            print("")
+        elif number == 3:
+            winsound.PlaySound("Right Hand Blue", winsound.SND_ASYNC)
+            print("")
+            print("RIGHT HAND ON BLUE")
+            print("")
+        elif number == 4:
+            winsound.PlaySound("Right Hand Red", winsound.SND_ASYNC)
+            print("")
+            print("RIGHT HAND ON RED")
+            print("")
+        elif number == 5:
+            winsound.PlaySound("Right Foot Green", winsound.SND_ASYNC)
+            print("")
+            print("RIGHT FOOT ON GREEN")
+            print("")
+        elif number == 6:
+            winsound.PlaySound("Right Foot Yellow", winsound.SND_ASYNC)
+            print("")
+            print("RIGHT FOOT ON YELLOW")
+            print("")
+        elif number == 7:
+            winsound.PlaySound("Right Foot Blue", winsound.SND_ASYNC)
+            print("")
+            print("RIGHT FOOT ON BLUE")
+            print("")
+        elif number == 8:
+            winsound.PlaySound("Right Foot Red", winsound.SND_ASYNC)
+            print("")
+            print("RIGHT FOOT ON RED")
+            print("")
+        elif number == 9:
+            winsound.PlaySound("Left Hand Green", winsound.SND_ASYNC)
+            print("")
+            print("LEFT HAND ON GREEN")
+            print("")
+        elif number == 10:
+            winsound.PlaySound("Left Hand Yellow", winsound.SND_ASYNC)
+            print("")
+            print("LEFT HAND ON YELLOW")
+            print("")
+        elif number == 11:
+            winsound.PlaySound("Left Hand Blue", winsound.SND_ASYNC)
+            print("")
+            print("LEFT HAND ON BLUE")
+            print("")
+        elif number == 12:
+            winsound.PlaySound("Left Hand Red", winsound.SND_ASYNC)
+            print("")
+            print("LEFT HAND ON RED")
+            print("")
+        elif number == 13:
+            winsound.PlaySound("Left Foot Green", winsound.SND_ASYNC)
+            print("")
+            print("LEFT FOOT ON GREEN")
+            print("")
+        elif number == 14:
+            winsound.PlaySound("Left Foot Yellow", winsound.SND_ASYNC)
+            print("")
+            print("LEFT FOOT ON YELLOW")
+            print("")
+        elif number == 15:
+            winsound.PlaySound("Left Foot Blue", winsound.SND_ASYNC)
+            print("")
+            print("LEFT FOOT ON BLUE")
+            print("")
+        elif number == 16:
+            winsound.PlaySound("Left Foot Red", winsound.SND_ASYNC)
+            print("")
+            print("LEFT FOOT ON RED")
+            print("")
+elif users == 2:
+    for i in range(1000):
+        for i in range(1):
+            time.sleep(5)
+            number = random.randint(1, 16)
+            winsound.PlaySound("Player 1", winsound.SND_NOSTOP)
+            print("PLAYER 1")
+            if number == 1:
+                winsound.PlaySound("Right Hand Green", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON GREEN")
+                print("")
+            elif number == 2:
+                winsound.PlaySound("Right Hand Yellow", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON YELLOW")
+                print("")
+            elif number == 3:
+                winsound.PlaySound("Right Hand Blue", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON BLUE")
+                print("")
+            elif number == 4:
+                winsound.PlaySound("Right Hand Red", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON RED")
+                print("")
+            elif number == 5:
+                winsound.PlaySound("Right Foot Green", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON GREEN")
+                print("")
+            elif number == 6:
+                winsound.PlaySound("Right Foot Yellow", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON YELLOW")
+                print("")
+            elif number == 7:
+                winsound.PlaySound("Right Foot Blue", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON BLUE")
+                print("")
+            elif number == 8:
+                winsound.PlaySound("Right Foot Red", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON RED")
+                print("")
+            elif number == 9:
+                winsound.PlaySound("Left Hand Green", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON GREEN")
+                print("")
+            elif number == 10:
+                winsound.PlaySound("Left Hand Yellow", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON YELLOW")
+                print("")
+            elif number == 11:
+                winsound.PlaySound("Left Hand Blue", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON BLUE")
+                print("")
+            elif number == 12:
+                winsound.PlaySound("Left Hand Red", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON RED")
+                print("")
+            elif number == 13:
+                winsound.PlaySound("Left Foot Green", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON GREEN")
+                print("")
+            elif number == 14:
+                winsound.PlaySound("Left Foot Yellow", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON YELLOW")
+                print("")
+            elif number == 15:
+                winsound.PlaySound("Left Foot Blue", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON BLUE")
+                print("")
+            elif number == 16:
+                winsound.PlaySound("Left Foot Red", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON RED")
+                print("")
+        for i in range(1):
+            time.sleep(5)
+            number = random.randint(1, 16)
+            winsound.PlaySound("Player 2", winsound.SND_NOSTOP)
+            print("PLAYER 2")
+            if number == 1:
+                winsound.PlaySound("Right Hand Green", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON GREEN")
+                print("")
+            elif number == 2:
+                winsound.PlaySound("Right Hand Yellow", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON YELLOW")
+                print("")
+            elif number == 3:
+                winsound.PlaySound("Right Hand Blue", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON BLUE")
+                print("")
+            elif number == 4:
+                winsound.PlaySound("Right Hand Red", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON RED")
+                print("")
+            elif number == 5:
+                winsound.PlaySound("Right Foot Green", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON GREEN")
+                print("")
+            elif number == 6:
+                winsound.PlaySound("Right Foot Yellow", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON YELLOW")
+                print("")
+            elif number == 7:
+                winsound.PlaySound("Right Foot Blue", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON BLUE")
+                print("")
+            elif number == 8:
+                winsound.PlaySound("Right Foot Red", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON RED")
+                print("")
+            elif number == 9:
+                winsound.PlaySound("Left Hand Green", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON GREEN")
+                print("")
+            elif number == 10:
+                winsound.PlaySound("Left Hand Yellow", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON YELLOW")
+                print("")
+            elif number == 11:
+                winsound.PlaySound("Left Hand Blue", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON BLUE")
+                print("")
+            elif number == 12:
+                winsound.PlaySound("Left Hand Red", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON RED")
+                print("")
+            elif number == 13:
+                winsound.PlaySound("Left Foot Green", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON GREEN")
+                print("")
+            elif number == 14:
+                winsound.PlaySound("Left Foot Yellow", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON YELLOW")
+                print("")
+            elif number == 15:
+                winsound.PlaySound("Left Foot Blue", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON BLUE")
+                print("")
+            elif number == 16:
+                winsound.PlaySound("Left Foot Red", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON RED")
+                print("")
+    
+elif users == 3:
+    for i in range(1000):
+        for i in range(1):
+            time.sleep(5)
+            number = random.randint(1, 16)
+            winsound.PlaySound("Player 1", winsound.NOSTOP)
+            print("PLAYER 1")
+            if number == 1:
+                winsound.PlaySound("Right Hand Green", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON GREEN")
+                print("")
+            elif number == 2:
+                winsound.PlaySound("Right Hand Yellow", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON YELLOW")
+                print("")
+            elif number == 3:
+                winsound.PlaySound("Right Hand Blue", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON BLUE")
+                print("")
+            elif number == 4:
+                winsound.PlaySound("Right Hand Red", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON RED")
+                print("")
+            elif number == 5:
+                winsound.PlaySound("Right Foot Green", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON GREEN")
+                print("")
+            elif number == 6:
+                winsound.PlaySound("Right Foot Yellow", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON YELLOW")
+                print("")
+            elif number == 7:
+                winsound.PlaySound("Right Foot Blue", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON BLUE")
+                print("")
+            elif number == 8:
+                winsound.PlaySound("Right Foot Red", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON RED")
+                print("")
+            elif number == 9:
+                winsound.PlaySound("Left Hand Green", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON GREEN")
+                print("")
+            elif number == 10:
+                winsound.PlaySound("Left Hand Yellow", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON YELLOW")
+                print("")
+            elif number == 11:
+                winsound.PlaySound("Left Hand Blue", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON BLUE")
+                print("")
+            elif number == 12:
+                winsound.PlaySound("Left Hand Red", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON RED")
+                print("")
+            elif number == 13:
+                winsound.PlaySound("Left Foot Green", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON GREEN")
+                print("")
+            elif number == 14:
+                winsound.PlaySound("Left Foot Yellow", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON YELLOW")
+                print("")
+            elif number == 15:
+                winsound.PlaySound("Left Foot Blue", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON BLUE")
+                print("")
+            elif number == 16:
+                winsound.PlaySound("Left Foot Red", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON RED")
+                print("")
+        for i in range(1):
+            time.sleep(5)
+            number = random.randint(1, 16)
+            winsound.PlaySound("Player 2", winsound.SND_NOSTOP)
+            print("PLAYER 2")
+            if number == 1:
+                winsound.PlaySound("Right Hand Green", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON GREEN")
+                print("")
+            elif number == 2:
+                winsound.PlaySound("Right Hand Yellow", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON YELLOW")
+                print("")
+            elif number == 3:
+                winsound.PlaySound("Right Hand Blue", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON BLUE")
+                print("")
+            elif number == 4:
+                winsound.PlaySound("Right Hand Red", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON RED")
+                print("")
+            elif number == 5:
+                winsound.PlaySound("Right Foot Green", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON GREEN")
+                print("")
+            elif number == 6:
+                winsound.PlaySound("Right Foot Yellow", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON YELLOW")
+                print("")
+            elif number == 7:
+                winsound.PlaySound("Right Foot Blue", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON BLUE")
+                print("")
+            elif number == 8:
+                winsound.PlaySound("Right Foot Red", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON RED")
+                print("")
+            elif number == 9:
+                winsound.PlaySound("Left Hand Green", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON GREEN")
+                print("")
+            elif number == 10:
+                winsound.PlaySound("Left Hand Yellow", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON YELLOW")
+                print("")
+            elif number == 11:
+                winsound.PlaySound("Left Hand Blue", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON BLUE")
+                print("")
+            elif number == 12:
+                winsound.PlaySound("Left Hand Red", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON RED")
+                print("")
+            elif number == 13:
+                winsound.PlaySound("Left Foot Green", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON GREEN")
+                print("")
+            elif number == 14:
+                winsound.PlaySound("Left Foot Yellow", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON YELLOW")
+                print("")
+            elif number == 15:
+                winsound.PlaySound("Left Foot Blue", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON BLUE")
+                print("")
+            elif number == 16:
+                winsound.PlaySound("Left Foot Red", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON RED")
+                print("")
+        for i in range(1):
+            time.sleep(5)
+            number = random.randint(1, 16)
+            winsound.PlaySound("Player 3", winsound.SND_NOSTOP)
+            print("PLAYER 3")
+            if number == 1:
+                winsound.PlaySound("Right Hand Green", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON GREEN")
+                print("")
+            elif number == 2:
+                winsound.PlaySound("Right Hand Yellow", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON YELLOW")
+                print("")
+            elif number == 3:
+                winsound.PlaySound("Right Hand Blue", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON BLUE")
+                print("")
+            elif number == 4:
+                winsound.PlaySound("Right Hand Red", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON RED")
+                print("")
+            elif number == 5:
+                winsound.PlaySound("Right Foot Green", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON GREEN")
+                print("")
+            elif number == 6:
+                winsound.PlaySound("Right Foot Yellow", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON YELLOW")
+                print("")
+            elif number == 7:
+                winsound.PlaySound("Right Foot Blue", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON BLUE")
+                print("")
+            elif number == 8:
+                winsound.PlaySound("Right Foot Red", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON RED")
+                print("")
+            elif number == 9:
+                winsound.PlaySound("Left Hand Green", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON GREEN")
+                print("")
+            elif number == 10:
+                winsound.PlaySound("Left Hand Yellow", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON YELLOW")
+                print("")
+            elif number == 11:
+                winsound.PlaySound("Left Hand Blue", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON BLUE")
+                print("")
+            elif number == 12:
+                winsound.PlaySound("Left Hand Red", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON RED")
+                print("")
+            elif number == 13:
+                winsound.PlaySound("Left Foot Green", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON GREEN")
+                print("")
+            elif number == 14:
+                winsound.PlaySound("Left Foot Yellow", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON YELLOW")
+                print("")
+            elif number == 15:
+                winsound.PlaySound("Left Foot Blue", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON BLUE")
+                print("")
+            elif number == 16:
+                winsound.PlaySound("Left Foot Red", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON RED")
+                print("")
+    
+elif users == 4:
+    for i in range(1000):
+        for i in range(1):
+            time.sleep(5)
+            number = random.randint(1, 16)
+            winsound.PlaySound("Player 1", winsound.SND_NOSTOP)
+            print("PLAYER 1")
+            if number == 1:
+                winsound.PlaySound("Right Hand Green", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON GREEN")
+                print("")
+            elif number == 2:
+                winsound.PlaySound("Right Hand Yellow", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON YELLOW")
+                print("")
+            elif number == 3:
+                winsound.PlaySound("Right Hand Blue", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON BLUE")
+                print("")
+            elif number == 4:
+                winsound.PlaySound("Right Hand Red", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON RED")
+                print("")
+            elif number == 5:
+                winsound.PlaySound("Right Foot Green", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON GREEN")
+                print("")
+            elif number == 6:
+                winsound.PlaySound("Right Foot Yellow", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON YELLOW")
+                print("")
+            elif number == 7:
+                winsound.PlaySound("Right Foot Blue", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON BLUE")
+                print("")
+            elif number == 8:
+                winsound.PlaySound("Right Foot Red", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON RED")
+                print("")
+            elif number == 9:
+                winsound.PlaySound("Left Hand Green", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON GREEN")
+                print("")
+            elif number == 10:
+                winsound.PlaySound("Left Hand Yellow", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON YELLOW")
+                print("")
+            elif number == 11:
+                winsound.PlaySound("Left Hand Blue", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON BLUE")
+                print("")
+            elif number == 12:
+                winsound.PlaySound("Left Hand Red", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON RED")
+                print("")
+            elif number == 13:
+                winsound.PlaySound("Left Foot Green", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON GREEN")
+                print("")
+            elif number == 14:
+                winsound.PlaySound("Left Foot Yellow", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON YELLOW")
+                print("")
+            elif number == 15:
+                winsound.PlaySound("Left Foot Blue", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON BLUE")
+                print("")
+            elif number == 16:
+                winsound.PlaySound("Left Foot Red", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON RED")
+                print("")
+        for i in range(1):
+            time.sleep(5)
+            number = random.randint(1, 16)
+            winsound.PlaySound("Player 2", winsound.SND_NOSTOP)
+            print("PLAYER 2")
+            if number == 1:
+                winsound.PlaySound("Right Hand Green", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON GREEN")
+                print("")
+            elif number == 2:
+                winsound.PlaySound("Right Hand Yellow", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON YELLOW")
+                print("")
+            elif number == 3:
+                winsound.PlaySound("Right Hand Blue", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON BLUE")
+                print("")
+            elif number == 4:
+                winsound.PlaySound("Right Hand Red", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON RED")
+                print("")
+            elif number == 5:
+                winsound.PlaySound("Right Foot Green", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON GREEN")
+                print("")
+            elif number == 6:
+                winsound.PlaySound("Right Foot Yellow", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON YELLOW")
+                print("")
+            elif number == 7:
+                winsound.PlaySound("Right Foot Blue", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON BLUE")
+                print("")
+            elif number == 8:
+                winsound.PlaySound("Right Foot Red", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON RED")
+                print("")
+            elif number == 9:
+                winsound.PlaySound("Left Hand Green", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON GREEN")
+                print("")
+            elif number == 10:
+                winsound.PlaySound("Left Hand Yellow", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON YELLOW")
+                print("")
+            elif number == 11:
+                winsound.PlaySound("Left Hand Blue", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON BLUE")
+                print("")
+            elif number == 12:
+                winsound.PlaySound("Left Hand Red", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON RED")
+                print("")
+            elif number == 13:
+                winsound.PlaySound("Left Foot Green", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON GREEN")
+                print("")
+            elif number == 14:
+                winsound.PlaySound("Left Foot Yellow", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON YELLOW")
+                print("")
+            elif number == 15:
+                winsound.PlaySound("Left Foot Blue", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON BLUE")
+                print("")
+            elif number == 16:
+                winsound.PlaySound("Left Foot Red", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON RED")
+                print("")
+        for i in range(1):
+            time.sleep(5)
+            number = random.randint(1, 16)
+            winsound.PlaySound("Player 3", winsound.SND_NOSTOP)
+            print("PLAYER 3")
+            if number == 1:
+                winsound.PlaySound("Right Hand Green", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON GREEN")
+                print("")
+            elif number == 2:
+                winsound.PlaySound("Right Hand Yellow", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON YELLOW")
+                print("")
+            elif number == 3:
+                winsound.PlaySound("Right Hand Blue", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON BLUE")
+                print("")
+            elif number == 4:
+                winsound.PlaySound("Right Hand Red", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON RED")
+                print("")
+            elif number == 5:
+                winsound.PlaySound("Right Foot Green", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON GREEN")
+                print("")
+            elif number == 6:
+                winsound.PlaySound("Right Foot Yellow", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON YELLOW")
+                print("")
+            elif number == 7:
+                winsound.PlaySound("Right Foot Blue", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON BLUE")
+                print("")
+            elif number == 8:
+                winsound.PlaySound("Right Foot Red", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON RED")
+                print("")
+            elif number == 9:
+                winsound.PlaySound("Left Hand Green", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON GREEN")
+                print("")
+            elif number == 10:
+                winsound.PlaySound("Left Hand Yellow", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON YELLOW")
+                print("")
+            elif number == 11:
+                winsound.PlaySound("Left Hand Blue", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON BLUE")
+                print("")
+            elif number == 12:
+                winsound.PlaySound("Left Hand Red", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON RED")
+                print("")
+            elif number == 13:
+                winsound.PlaySound("Left Foot Green", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON GREEN")
+                print("")
+            elif number == 14:
+                winsound.PlaySound("Left Foot Yellow", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON YELLOW")
+                print("")
+            elif number == 15:
+                winsound.PlaySound("Left Foot Blue", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON BLUE")
+                print("")
+            elif number == 16:
+                winsound.PlaySound("Left Foot Red", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON RED")
+                print("")
+        for i in range(1):
+            time.sleep(5)
+            number = random.randint(1, 16)
+            winsound.PlaySound("Player 4", winsound.SND_NOSTOP)
+            print("PLAYER 4")
+            if number == 1:
+                winsound.PlaySound("Right Hand Green", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON GREEN")
+                print("")
+            elif number == 2:
+                winsound.PlaySound("Right Hand Yellow", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON YELLOW")
+                print("")
+            elif number == 3:
+                winsound.PlaySound("Right Hand Blue", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON BLUE")
+                print("")
+            elif number == 4:
+                winsound.PlaySound("Right Hand Red", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT HAND ON RED")
+                print("")
+            elif number == 5:
+                winsound.PlaySound("Right Foot Green", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON GREEN")
+                print("")
+            elif number == 6:
+                winsound.PlaySound("Right Foot Yellow", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON YELLOW")
+                print("")
+            elif number == 7:
+                winsound.PlaySound("Right Foot Blue", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON BLUE")
+                print("")
+            elif number == 8:
+                winsound.PlaySound("Right Foot Red", winsound.SND_ASYNC)
+                print("")
+                print("RIGHT FOOT ON RED")
+                print("")
+            elif number == 9:
+                winsound.PlaySound("Left Hand Green", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON GREEN")
+                print("")
+            elif number == 10:
+                winsound.PlaySound("Left Hand Yellow", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON YELLOW")
+                print("")
+            elif number == 11:
+                winsound.PlaySound("Left Hand Blue", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON BLUE")
+                print("")
+            elif number == 12:
+                winsound.PlaySound("Left Hand Red", winsound.SND_ASYNC)
+                print("")
+                print("LEFT HAND ON RED")
+                print("")
+            elif number == 13:
+                winsound.PlaySound("Left Foot Green", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON GREEN")
+                print("")
+            elif number == 14:
+                winsound.PlaySound("Left Foot Yellow", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON YELLOW")
+                print("")
+            elif number == 15:
+                winsound.PlaySound("Left Foot Blue", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON BLUE")
+                print("")
+            elif number == 16:
+                winsound.PlaySound("Left Foot Red", winsound.SND_ASYNC)
+                print("")
+                print("LEFT FOOT ON RED")
+                print("")
+
+
+
